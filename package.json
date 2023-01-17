@@ -1,0 +1,23 @@
+{
+  "name": "marcos-paulo-da-silva-albuquerque",
+  "version": "1.0.0",
+  "description": "Repositório destinado aos interessados em participar do processo seletivo da SHARENERGY 2023/01. As vagas são voltadas para desenvolvimento de aplicações Web e Mobile.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "(cd back-end && npm run dev) & (cd front-end && npm run dev)",
+    "front": "cd front-end && npm run dev",
+    "back": "cd back-end && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpdsa/marcos-paulo-da-silva-albuquerque.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpdsa/marcos-paulo-da-silva-albuquerque/issues"
+  },
+  "homepage": "https://github.com/mpdsa/marcos-paulo-da-silva-albuquerque#readme"
+}
