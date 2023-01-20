@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import DashboardMenu from '../component/DashboardMenu';
-import DashboardWindow from '../component/DashboardWindow';
-import { AxiosResponse } from 'axios';
 import { useLocation, useNavigate } from 'react-router-dom';
+import { AxiosResponse } from 'axios';
+import { DashboardMenu } from '../component/DashboardMenu';
+import { DashboardWindow } from '../component/DashboardWindow';
 
 export default function Dashboard() {
   const [showContent, setShowContent] = useState<string>('');
