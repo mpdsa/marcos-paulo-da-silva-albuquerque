@@ -1,16 +1,13 @@
 import axios from 'axios'
 
+const instance = axios.create({
+  baseURL: 'http://127.0.0.1:3001' ,
+  timeout: 5000
+});
 
 export default async function getUser() {
-  const TOTAL_USERS = 50
-  
   try {
-    const response = await axios.get('https://randomuser.me/api/', {
-      params: {
-        results: TOTAL_USERS
-      }
-    });
-    
+    const response = await instance.get('/randomuser');
     return response
 
   } catch (error) {
