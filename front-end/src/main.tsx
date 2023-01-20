@@ -3,11 +3,12 @@ import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Login from './routes/Login';
 import Dashboard from './routes/Dashboard';
+import './tailwind.css';
 
-// Acionar verificação das rotas pelo do RRD.
+const root = document.getElementById('root') as HTMLElement;
 const route = createBrowserRouter([
   {
-    path: '/',
+    path: '',
     element: <Login />,
   },
   {
@@ -15,8 +16,6 @@ const route = createBrowserRouter([
     element: <Dashboard />,
   },
 ]);
-
-const root = document.getElementById('root') as HTMLElement;
 
 createRoot(root).render(
   <StrictMode>
