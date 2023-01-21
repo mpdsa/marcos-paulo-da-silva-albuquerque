@@ -11,9 +11,9 @@ Para executar os servidores individualmente utilize `npm run [front ou back]`
 Exemplo: `npm run front` para iniciar apenas o front-end
 
 
-
 Vídeo 1
-https://youtu.be/w0Tv2kvvaUQ
+https://youtu.be/drLcGU9tlqM
 
 Vídeo 2
-https://youtu.be/drLcGU9tlqM
+https://youtu.be/w0Tv2kvvaUQ
+
