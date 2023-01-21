@@ -1,5 +1,4 @@
-import axios from 'axios';
-import { Suspense, useState } from 'react';
+import { useState } from 'react';
 import getDogRandom from '../api/dogRandomImage';
 
 export default function DashboardWindowDog() {
